@@ -1,4 +1,5 @@
 % Paramètres physiques du véhicule
+
 m = 1500;      % masse en kg
 rho = 1.225;   % densité de l'air en kg/m^3
 Cd = 0.3;      % coefficient aérodynamique (sans unité)
@@ -10,6 +11,7 @@ g = 9.81;      % accélération gravitationnelle en m/s^2
 wheel_radius = 0.3;      % rayon de roue en m
 gear_ratio = 8;          % rapport de transmission global (boîte + différentiel)
 efficiency = 0.88;       % rendement transmission (0 à 1)
+road_slope_deg = 0;   % angle de la route en degrés, positif = montée, négatif = descente
 
 % Courbe de couple moteur (points mesurés typiques, essence 4 cylindres)
 rpm_breakpoints = [0 1000 2000 3000 4000 5000 6000 7000];      % régime moteur en RPM
